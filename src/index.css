@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-ui: var(--ui);
+  --color-primary: var(--primary);
+  --color-purple: var(--purple);
+  --color-pink: var(--pink);
+  --color-blue: var(--blue);
+  --color-cyan: var(--cyan);
+  --color-orange: var(--orange);
+  --color-green: var(--green);
+  --color-border: var(--border);
+  --color-grey: var(--grey);
+  --color-greyborder: var(--greyborder);
+  --color-nav: var(--nav);
+}
+
+@layer base {
+  :root {
+    --background: #16161e;
+    --foreground: #1a1b26;
+
+    --ui: #747895;
+    --nav: #36394b;
+    --primary: #a6c2f0;
+    --grey: #222229;
+    --purple: #b293f1;
+    --pink: #b03780;
+    --blue: #4280ee;
+    --cyan: #7dcfff;
+    --orange: #ca8a60;
+    --green: #9ece6a;
+    --border: #101014;
+    --greyborder: #2c2d38;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Geist Mono;
+    transition: all 200ms ease;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
